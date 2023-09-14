@@ -1,0 +1,48 @@
+.syllabus {
+  padding-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+.syllabus__container {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+
+  @include mq(desktop) {
+    width: min-content;
+  }
+}
+
+.syllabus__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  font-size: 8.5px;
+
+  @include mq(tablet) {
+    font-size: 13px;
+  }
+
+  @include mq(desktop) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.syllabus__img {
+  padding-bottom: 5px;
+}
+
+.syllabus__text {
+  width: 100%;
+  padding-left: 15px;
+  display: flex;
+  &--point {
+    margin: 0;
+    @media screen and (min-width: 320px) and (max-width: 1199px) {
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.program {
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to right, #ffffffd9 10%, #c9226900 100%),
+    url(/src/images/picture/picture4.png);
+  &__container {
+    padding-top: 15px;
+  }
+  &.list {
+    margin-bottom: 20px;
+  }
+}
+
+.program__title {
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.program__list--text {
+  font-size: 12px;
+  background-color: #2aa5a0;
+  background-image: linear-gradient(90deg, var(--bgc-second), #000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include mq(desktop) {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,31 @@
+// utils
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/variables';
+
+// base styles
+@import './base/animations';
+@import './base/global';
+@import './base/container';
+@import './base/animations';
+@import './base/js-selectors';
+@import './base/reset';
+@import './base/section';
+
+// components
+@import './components/visually-hidden';
+@import './components/scroll-to-top';
+
+// layuots
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/advantages';
+@import './layouts/syllabus';
+@import './layouts/program';
+@import './layouts/about';
+@import './layouts/result';
+@import './layouts/timer';
+@import './layouts/tg-form';
+@import './layouts/contacts';
+@import './layouts/footer';

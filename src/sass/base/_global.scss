@@ -1,0 +1,37 @@
+html {
+  width: 100%;
+  max-width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+
+  color: var(--cl-txt-main);
+  background-color: var(--bgc-main);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+  width: 25px;
+  height: 25px;
+}
+
+button {
+  cursor: pointer;
+}

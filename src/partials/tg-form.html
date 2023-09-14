@@ -1,0 +1,69 @@
+<section class="tg-form">
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-close" data-modal-close>
+        <svg width="10" height="10">
+          <use href="/src/images/svg/sprite.svg#close-icon"></use>
+        </svg>
+      </button>
+      <b class="modal-title">Запишитесь на курс</b>
+
+      <form class="form-user" id="tg-form" action="/send-message" method="post">
+        <label class="form-group" for="name">
+          <span class="input-container">
+            <input
+              class="input-form"
+              type="text"
+              name="name"
+              placeholder="Имя"
+              id="name"
+              autocomplete="off"
+              required
+            />
+            <svg class="input-form-icon" width="18" height="18">
+              <use href="/src/images/svg/sprite.svg#person-icon"></use>
+            </svg>
+          </span>
+        </label>
+
+        <label class="form-group" for="tel">
+          <span class="input-container">
+            <input
+              class="input-form"
+              type="tel"
+              name="tel"
+              placeholder="+380123456789"
+              autocomplete="off"
+              id="tel"
+              required
+            />
+            <svg class="input-form-icon" width="18" height="18">
+              <use href="/src/images/svg/sprite.svg#phone-icon"></use>
+            </svg>
+          </span>
+        </label>
+
+        <label class="form-group comments" for="comment">
+          <textarea
+            class="form-comments"
+            name="comment"
+            placeholder="Имя пользователя телеграм @username"
+            id="comment"
+            required
+          ></textarea>
+        </label>
+
+        <div
+          id="success"
+          class="alert alert-success"
+          role="alert"
+          style="display: none"
+        ></div>
+
+        <button class="btn-submit" type="submit" data-modal-close2>
+          Отправить
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

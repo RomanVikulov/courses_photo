@@ -1,0 +1,35 @@
+.contacts.link__phone,
+.contacts.link__email,
+.contacts.link__url {
+  text-decoration: none;
+}
+
+.section-title__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts.list {
+  @include mq(desktop) {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 700px;
+  }
+}
+
+.contacts.list__list:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.contacts.list__title {
+  padding-bottom: 15px;
+}
+
+.contacts.list__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}

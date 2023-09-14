@@ -1,0 +1,49 @@
+<header class="header container" id="header">
+  <div class="header__container container">
+    <a class="link logo" aria-label="logo company">
+      <div class="logo">
+        <picture>
+          <source
+            media="(min-width: 320px)"
+            srcset="/src/images/logo/logo.webp 1x"
+            type="image/webp"
+          />
+          <img
+            class="logo-img"
+            srcset="
+              /src/images/logo/logo.png     50w,
+              /src/images/logo/logo@2x.png 100w
+            "
+            src="/src/images/logo/logo.png"
+            sizes="(min-width:1200px) 50px, 100vw"
+            alt="Logo"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </a>
+    <div class="header__title">
+      <h1>
+        ПРАКТИЧЕСКИЙ ОНЛАЙН-КУРС <br />
+        «ОТ ХОББИ ДО ЗАРАБОТКА»
+      </h1>
+    </div>
+    <nav class="navigation">
+      <ul class="navigation__list list">
+        <li class="navigation__item">
+          <a class="navigation__link link" href="#program" aria-label="Обо мне"
+            >Программа курса
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a
+            class="navigation__link link"
+            href="#contacts"
+            aria-label="Контакты"
+            >Контакты
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

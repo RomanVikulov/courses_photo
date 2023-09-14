@@ -1,0 +1,22 @@
+:root {
+  // fonts
+  --font-family-main: 'DM Sans', sans-serif;
+  --font-family-title: 'Titan One', cursive;
+
+  // text
+  --cl-txt-main: #000000;
+  --cl-txt-main-pink: #c92269;
+  --cl-txt-second: #907e82;
+  --cl-txt-white: #ffffff;
+
+  // background
+  --bgc-main: #ffffff;
+  --bgc-second: #c92269;
+  --bgc-btn: #e43d86;
+  --bgk-backdrop: rgba(128, 128, 128, 0.5);
+
+  // transition
+  --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --slow-anim: 200ms ease;
+  --fast-anim: 350ms ease-in-out;
+}

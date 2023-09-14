@@ -1,0 +1,45 @@
+.fix-down {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  &.container {
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+}
+
+.scroll-to-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+
+  width: 25px;
+  height: 25px;
+
+  background-color: var(--bgc-btn);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  animation: slide-top 1s linear 2s infinite alternate both;
+
+  @include mq(tablet) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.arrow-top {
+  fill: var(--cl-txt-white);
+
+  width: 15px;
+  height: 15px;
+
+  @include mq(tablet) {
+    width: 15px;
+    height: 15px;
+  }
+}
