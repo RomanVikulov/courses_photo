@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://RomanVikulov.github.io/courses_photo",
+  "homepage": "https://RomanVikulov.github.io/online_photocourses_annamaguran",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /courses_photo/"
+    "build": "parcel build src/*.html --public-url /online_photocourses_annamaguran/"
   },
   "repository": {
     "type": "git",
