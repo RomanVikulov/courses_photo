@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   // конечная дата
-  const deadline = new Date('2023-10-03');
+  const deadline = new Date('2023-09-28');
   // id таймера
   let timerId = null;
   // склонение числительных
